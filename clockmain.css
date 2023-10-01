@@ -1,0 +1,12 @@
+body{
+    background-color: white;  /* 원하는 배경색 */
+}
+.date{
+    
+    color: black; /* 날짜가 표기되는 텍스트 색상 */
+}
+.time{
+    
+    font-weight: bold;
+    color: black; /* 시간이 표기되는 텍스트 색상 */
+}

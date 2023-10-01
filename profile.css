@@ -1,0 +1,55 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Giants-Inline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Inline.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Giants-Inline';
+    
+}
+
+#header{
+    height: 100px;
+    background-color: #f6f5ef;
+    position: relative;
+    text-shadow: none;
+  }
+
+p {
+    color: blue;
+    text-align: center;
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+sup {
+    color: red;
+    text-align: center;
+}
+
+.start {
+    color: black;
+}
+.효과on {
+    color: red;
+    text-decoration: none;
+    text-shadow: 
+        0px 0px 4px #ccc, 
+        0px -5px 4px #ff3, 
+        2px -10px 6px #fd3, 
+        -2px -15px 11px #680, 
+        2px -19px 18px #f20;
+}
+/* body {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
+} */
